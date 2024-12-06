@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    height: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.darktoekomst{
+    color: white;
+    background-color: rgb(67, 64, 64);
+}
+
+.darktoekomst .header{
+    padding: 60px;
+    background-color: #2a3648;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.darktoekomst aside {
+ height: 900px;
+}
+
+.darktoekomst aside p{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.darktoekomst aside img{
+    width:100%;
+}
+
+.darktoekomst h1 {
+    font-size: 250%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.darktoekomst h5{
+    color: #00b3b9;
+}
+
+.darktoekomst h4{
+    color: white
+}
+
+.darkmode {
+    color: white;
+    background-color: rgb(67, 64, 64);
+}
+
+
+.darkmode .header {
+    padding: 60px;
+    text-align: center;
+    background-color: #2a3648;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.darkmode h4 {
+    color: #00b3b9;
+}
+
+.darkmode h5 {
+    color: #00b3b9;
+}
+
+.darkmode h6 {
+    color: #00b3b9;
+}
+
+.toekomst h1 {
+    font-size: 250%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.toekomst h4{
+    color:white;
+    margin-top: 0px;
+}
+
+.toekomst .header {
+    
+    padding: 60px;
+    background-color: #2a3648;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.toekomst aside{
+    background-color:#e8ecec;
+    color:#4d5f81;
+    height: 900px;
+
+}
+
+.toekomst aside p{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.toekomst aside img{
+    width: 100%;
+}
+
+.toekomst p{
+    width: 65%;
+}
+
+.toekomst footer p{
+margin-left: 625px;
+}
+
+.main .header {
+    padding: 60px;
+    text-align: center;
+    background-color: #2a3648;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(94, 94, 94);
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 150%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00b3b9;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 350%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    width: 62%;
+    margin-top: 20px;
+}
+
+article {
+    margin: 0 auto;
+    padding: 40px;
+    width: 85vw;
+}
+
+aside {
+    height: 1000px;
+    width: 30%;
+    padding: 22px;
+    margin-left: 20px;
+    float: right;
+    font-style: italic;
+    background-color: #2a3648;
+    overflow: hidden;
+    color: white;
+}
+
+aside img{
+    width: 62%;
+}
+
+figure {
+    width: 150%;
+    padding-left: 20px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 225%;
+    margin-bottom: 20px;
+    font-style: normal;
+    color: #00b3b9;
+}
+
+h4 {
+    font-size: 250%;
+    margin-bottom: 20px;
+    color: #0f3750;
+    font-style: inherit;
+}
+
+h5 {
+    margin-top: 10px;
+    font-size: 175%;
+    color: #0f3750;
+}
+
+h6 {
+    font-size: 225%;
+    margin-top: 30px;
+    color: #0f3750;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+li {
+    margin-top: 2px;
+    align-items: center;
+    margin-left: 35vw;
+    font-size: 20px;
+}
+
+.topnav {
+    background-color: #2a3648;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.flex-container>div {
+    padding: 10px;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.flex-container>div>img {
+    width: 105%;
+    margin-right: 10px;
+}
+
+.divider {
+    border: none;
+    height: 2px ;
+    background-color: #ff7366;
+    margin: 20px 0;
+}

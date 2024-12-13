@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/WOMstylesheet.css">
+    <link rel="stylesheet" href="css/womstylesheet.css">
     <title>fanfic</title>
 </head>
 
@@ -29,13 +29,14 @@
                 Ik wil ooit professionele cs2 speler worden, ik word elke dag beter.
             </p>
             <hr class="divider">
+
            <img src="img/32044148cfccfd41014124fe55160bfd_9016086258847125922.webp">
         </aside>
         <h5>MIJN TECH SKILLS</h5>
         <p>
-            Ik ben redelijk mediocre in html/css. Javascript kan ik helemaal niet, 
-            en ik heb mijn Yae Miko gemaakt in Unity. 
-            Zover dat ik het weet zijn er geen andere talen naast deze.
+            Ik ben redelijk mediocre in html/css. Javascript kan ik helemaal niet,
+            en ik heb mijn Yae Miko gemaakt in Unity.
+            Zover dat ik het weet zijn er geen andere talen naast deze 4.
         </p>
         <h5>MIJN SOFT SKILLS</h5>
         <p>
@@ -47,11 +48,70 @@
         <p>Iedergeval een diploma, genoeg skills voor gamedev in unreal en unity en hopelijk een goeie leuke baan.</p>
         <h5>NA HET MA</h5>
         <p>Of HBO of meteen werken, ik weet het nog niet zo zeker maar iedergeval een diploma.</p>
+        
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img/WIN_20240910_09_17_18_Pro.jpg" style="width:100%">
+              <div class="text">Joey</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="img/Screenshot 2024-10-27 193921.png" style="width:100%">
+              <div class="text">Hotline miami 100%</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img/Screenshot 2024-12-10 141816.png" style="width:100%" height="auto">
+              <div class="text">Ik en mijn gf</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
     </article>
     <footer>
         <p>© copyright - Joey Joosten</p>
     </footer>
 </body>
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
 </body>
 
 </html>

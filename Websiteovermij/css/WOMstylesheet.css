@@ -10,12 +10,12 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-.darktoekomst{
+.darktoekomst {
     color: white;
     background-color: rgb(67, 64, 64);
 }
 
-.darktoekomst .header{
+.darktoekomst .header {
     padding: 60px;
     background-color: #2a3648;
     color: white;
@@ -25,17 +25,17 @@ body {
 }
 
 .darktoekomst aside {
- height: 900px;
+    height: 900px;
 }
 
-.darktoekomst aside p{
+.darktoekomst aside p {
     width: 100%;
     margin-bottom: 40px;
     margin-top: 30px;
 }
 
-.darktoekomst aside img{
-    width:100%;
+.darktoekomst aside img {
+    width: 100%;
 }
 
 .darktoekomst h1 {
@@ -44,11 +44,11 @@ body {
     margin-bottom: 5px;
 }
 
-.darktoekomst h5{
+.darktoekomst h5 {
     color: #00b3b9;
 }
 
-.darktoekomst h4{
+.darktoekomst h4 {
     color: white
 }
 
@@ -85,13 +85,13 @@ body {
     margin-bottom: 5px;
 }
 
-.toekomst h4{
-    color:white;
+.toekomst h4 {
+    color: white;
     margin-top: 0px;
 }
 
 .toekomst .header {
-    
+
     padding: 60px;
     background-color: #2a3648;
     color: white;
@@ -99,29 +99,29 @@ body {
     margin-bottom: 20px;
 }
 
-.toekomst aside{
-    background-color:#e8ecec;
-    color:#4d5f81;
+.toekomst aside {
+    background-color: #e8ecec;
+    color: #4d5f81;
     height: 900px;
 
 }
 
-.toekomst aside p{
+.toekomst aside p {
     width: 100%;
     margin-bottom: 40px;
     margin-top: 30px;
 }
 
-.toekomst aside img{
+.toekomst aside img {
     width: 100%;
 }
 
-.toekomst p{
+.toekomst p {
     width: 65%;
 }
 
-.toekomst footer p{
-margin-left: 625px;
+.toekomst footer p {
+    margin-left: 625px;
 }
 
 .main .header {
@@ -181,7 +181,7 @@ aside {
     color: white;
 }
 
-aside img{
+aside img {
     width: 62%;
 }
 
@@ -277,7 +277,96 @@ li {
 
 .divider {
     border: none;
-    height: 2px ;
+    height: 2px;
     background-color: #ff7366;
     margin: 20px 0;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(93, 94, 145);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #ffffff;
+    background-color: gray;
+    font-size: 16px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
